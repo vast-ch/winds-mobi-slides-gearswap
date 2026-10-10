@@ -1,0 +1,1 @@
+var e=`/winds-mobi-slides-gearswap/discord-qr.svg`;export{e as t};

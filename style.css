@@ -1,0 +1,61 @@
+/* Alpine look on top of the default theme. Teal comes from the winds.mobi app header. */
+:root {
+  --alp-teal: #1f6f78;
+  --alp-teal-light: #4ba3a8;
+  --alp-ink: #16323a;
+  --alp-sky-top: #dcecf5;
+  --alp-sky-bottom: #f8fbfc;
+  --ridge-far: #b9d3dc;
+  --ridge-mid: #7fa7b3;
+  --ridge-near: #3d6470;
+}
+
+.alp-sky {
+  background: linear-gradient(180deg, var(--alp-sky-top) 0%, var(--alp-sky-bottom) 70%);
+}
+
+.slidev-layout {
+  background: transparent;
+  color: var(--alp-ink);
+}
+
+.slidev-layout h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--alp-teal);
+}
+
+.slidev-layout h1 + p {
+  opacity: 1;
+}
+
+/* Big stat numbers */
+.slidev-layout .font-bold.text-4xl,
+.slidev-layout .font-bold.text-5xl,
+.slidev-layout .font-bold.text-6xl {
+  font-family: 'Barlow Condensed', sans-serif;
+  color: var(--alp-teal);
+}
+
+.slidev-layout table {
+  background: rgb(255 255 255 / 0.7);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.slidev-layout th {
+  background: var(--alp-teal);
+  color: white;
+}
+
+.slidev-layout a {
+  color: var(--alp-teal);
+  border-color: var(--alp-teal-light);
+}
+
+.slidev-layout .mermaid {
+  display: flex;
+  justify-content: center;
+}

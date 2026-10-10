@@ -1,0 +1,16 @@
+{
+  "name": "winds-mobi-slides-gearswap",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open --port 3031",
+    "build": "slidev build",
+    "export": "slidev export",
+    "build:pages": "slidev build --base /winds-mobi-slides-gearswap/ --out docs && cp docs/index.html docs/404.html && touch docs/.nojekyll"
+  },
+  "dependencies": {
+    "@slidev/cli": "52.20.1",
+    "@slidev/theme-default": "latest",
+    "markdown-it": "^14.3.2"
+  }
+}
